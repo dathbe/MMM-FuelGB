@@ -1,0 +1,29 @@
+{
+  "name": "mmm-fuelgb",
+  "version": "0.0.1",
+  "description": ".",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dathbe/MMM-FuelGB.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "Module"
+  ],
+  "author": "dathbe",
+  "contributors": [
+    "dathbe"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "npm run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0"
+  }
+}
